@@ -2,11 +2,11 @@
 
 namespace App\Entity;
 
-use App\Repository\ChapitreRepository;
+use App\Repository\ChapterRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: ChapitreRepository::class)]
-class Chapitre
+#[ORM\Entity(repositoryClass: ChapterRepository::class)]
+class Chapter
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
